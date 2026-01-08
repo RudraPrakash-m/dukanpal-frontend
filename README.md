@@ -16,44 +16,39 @@ frontend/
 ├── node_modules/
 ├── public/
 ├── src/
-│ ├── component/
-│ │ ├── cart_ske/
-│ │ ├── products_page_ske/
-│ │ ├── scroll_to_top/
-│ │ │ └── ScrollToTop.jsx
-│ │ ├── CartItem.jsx
-│ │ ├── CategoryBar.jsx
-│ │ ├── Footer.jsx
-│ │ ├── NavBar.jsx
-│ │ └── ProductCard.jsx
-│ │
-│ ├── context/
-│ │ └── CartContext.jsx
-│ │
-│ ├── layouts/
-│ │ └── AppLayout.jsx
-│ │
-│ ├── pages/
-│ │ ├── CartPage.jsx
-│ │ ├── LandingPage.jsx
-│ │ ├── LoginPage.jsx
-│ │ ├── ProductsPage.jsx
-│ │ └── RegisterPage.jsx
-│ │
-│ ├── App.jsx
-│ ├── index.css
-│ └── main.jsx
-│
-├── .env
+│   ├── components/
+│   │   ├── cart_ske/          # Cart skeleton components
+│   │   ├── products_page_ske/ # Product page skeleton components
+│   │   ├── scroll_to_top/
+│   │   │   └── ScrollToTop.jsx
+│   │   ├── CartItem.jsx
+│   │   ├── CategoryBar.jsx
+│   │   ├── Footer.jsx
+│   │   ├── NavBar.jsx
+│   │   └── ProductCard.jsx
+│   ├── context/
+│   │   └── CartContext.jsx    # Global cart state management
+│   ├── layouts/
+│   │   └── AppLayout.jsx      # Main application layout
+│   ├── pages/
+│   │   ├── CartPage.jsx
+│   │   ├── LandingPage.jsx
+│   │   ├── LoginPage.jsx
+│   │   ├── ProductsPage.jsx
+│   │   └── RegisterPage.jsx
+│   ├── App.jsx                # Main App component
+│   ├── index.css              # Global styles
+│   └── main.jsx               # Application entry point
+├── .env                       # Environment variables
 ├── .gitignore
-├── eslint.config.js
+├── eslint.config.js           # ESLint configuration
 ├── index.html
 ├── package.json
 ├── package-lock.json
-├── postcss.config.js
+├── postcss.config.js          # PostCSS configuration
 ├── README.md
-├── tailwind.config.js
-└── vite.config.js
+├── tailwind.config.js         # Tailwind configuration
+└── vite.config.js             # Vite configuration
 
 ## Features
 - Product listing using Fake Store API
