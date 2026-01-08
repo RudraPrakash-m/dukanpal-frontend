@@ -50,7 +50,7 @@ export default function NavBar() {
 
   return (
     <header className="sticky top-0 z-50 bg-white border-b border-slate-200">
-      <nav className="max-w-7xl mx-auto px-4 md:px-6 py-3">
+      <nav className="max-w-7xl mx-auto px-4 md:px-6 py-3 h-16">
         {/* ===== TOP BAR ===== */}
         <div className="flex items-center justify-between">
           {/* LOGO */}
